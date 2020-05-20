@@ -1,0 +1,32 @@
+Apple
+Pear
+Orange
+Lemon
+Banana
+Watermelon
+Grape
+Strawberry
+Cherry
+A pineapple
+Tomato
+Eggplant
+Hot peppers
+Cucurudza
+Cheese
+Bread
+Burger
+Hot Dog
+French fries
+Pizza
+Tacos
+Sushi
+Rice ball
+Ice cream
+Cake
+Candy
+Chocolate
+Popcorn
+Donat
+Biscuits
+Coffee
+Honey

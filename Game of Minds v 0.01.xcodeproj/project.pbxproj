@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1179E0C236378A3005953A8 /* LetsPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1179E0B236378A3005953A8 /* LetsPlay.swift */; };
+		F1179E0E23637A6A005953A8 /* Matches.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1179E0D23637A6A005953A8 /* Matches.swift */; };
+		F1179E102368AFF8005953A8 /* FruitsNames.txt in Resources */ = {isa = PBXBuildFile; fileRef = F1179E0F2368AFF8005953A8 /* FruitsNames.txt */; };
+		F1179E122368B012005953A8 /* FruitsImages.txt in Resources */ = {isa = PBXBuildFile; fileRef = F1179E112368B012005953A8 /* FruitsImages.txt */; };
+		F119DC0A2333FF8500A3F8E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F119DC092333FF8500A3F8E7 /* AppDelegate.swift */; };
+		F119DC0F2333FF8500A3F8E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F119DC0D2333FF8500A3F8E7 /* Main.storyboard */; };
+		F119DC142333FF8500A3F8E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F119DC122333FF8500A3F8E7 /* LaunchScreen.storyboard */; };
+		F1ABB731244DC9B300A81570 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABB730244DC9B300A81570 /* SettingsViewController.swift */; };
+		F1ABB733245042BE00A81570 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABB732245042BE00A81570 /* UserSettings.swift */; };
+		F1BB0CF42358EFF600CA8551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BB0CF32358EFF600CA8551 /* Assets.xcassets */; };
+		F1BB0CF6235F6D8000CA8551 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1BB0CF5235F6D8000CA8551 /* Montserrat-Bold.otf */; };
+		F1E01E7B2451C93C004E843E /* FlagsImages.txt in Resources */ = {isa = PBXBuildFile; fileRef = F1E01E792451C93C004E843E /* FlagsImages.txt */; };
+		F1E01E7C2451C93C004E843E /* FlagsNames.txt in Resources */ = {isa = PBXBuildFile; fileRef = F1E01E7A2451C93C004E843E /* FlagsNames.txt */; };
+		F1E0512D241E75BE00CF80EB /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E0512C241E75BE00CF80EB /* PopViewController.swift */; };
+		F1E92E2A2378439B001FC9A1 /* AnimalsImages.txt in Resources */ = {isa = PBXBuildFile; fileRef = F1E92E262378439B001FC9A1 /* AnimalsImages.txt */; };
+		F1E92E2B2378439B001FC9A1 /* AnimalsNames.txt in Resources */ = {isa = PBXBuildFile; fileRef = F1E92E272378439B001FC9A1 /* AnimalsNames.txt */; };
+		F1E92E2C2378439B001FC9A1 /* ThingsImages.txt in Resources */ = {isa = PBXBuildFile; fileRef = F1E92E282378439B001FC9A1 /* ThingsImages.txt */; };
+		F1E92E2D2378439B001FC9A1 /* ThingsNames.txt in Resources */ = {isa = PBXBuildFile; fileRef = F1E92E292378439B001FC9A1 /* ThingsNames.txt */; };
+		F1EEEDAD23467F8F0077DF2A /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EEEDAC23467F8F0077DF2A /* UIView+IBInspectable.swift */; };
+		F1FF9090243DE3D700F9315F /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF908F243DE3D700F9315F /* HelpViewController.swift */; };
+		F1FF9096243DEDCE00F9315F /* PopUpPauseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF9095243DEDCE00F9315F /* PopUpPauseViewController.swift */; };
+		F1FF9098243F56AF00F9315F /* FinishGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF9097243F56AF00F9315F /* FinishGameViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1179E0B236378A3005953A8 /* LetsPlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetsPlay.swift; sourceTree = "<group>"; };
+		F1179E0D23637A6A005953A8 /* Matches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matches.swift; sourceTree = "<group>"; };
+		F1179E0F2368AFF8005953A8 /* FruitsNames.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FruitsNames.txt; sourceTree = "<group>"; };
+		F1179E112368B012005953A8 /* FruitsImages.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FruitsImages.txt; sourceTree = "<group>"; };
+		F119DC062333FF8500A3F8E7 /* Game of Minds v 0.01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game of Minds v 0.01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F119DC092333FF8500A3F8E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F119DC0E2333FF8500A3F8E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F119DC132333FF8500A3F8E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F119DC152333FF8500A3F8E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1ABB730244DC9B300A81570 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F1ABB732245042BE00A81570 /* UserSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		F1BB0CF32358EFF600CA8551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1BB0CF5235F6D8000CA8551 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.otf"; path = "../../../../Library/Fonts/Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		F1E01E792451C93C004E843E /* FlagsImages.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FlagsImages.txt; sourceTree = "<group>"; };
+		F1E01E7A2451C93C004E843E /* FlagsNames.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FlagsNames.txt; sourceTree = "<group>"; };
+		F1E0512C241E75BE00CF80EB /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
+		F1E92E262378439B001FC9A1 /* AnimalsImages.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AnimalsImages.txt; sourceTree = "<group>"; };
+		F1E92E272378439B001FC9A1 /* AnimalsNames.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AnimalsNames.txt; sourceTree = "<group>"; };
+		F1E92E282378439B001FC9A1 /* ThingsImages.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ThingsImages.txt; sourceTree = "<group>"; };
+		F1E92E292378439B001FC9A1 /* ThingsNames.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ThingsNames.txt; sourceTree = "<group>"; };
+		F1EEEDAC23467F8F0077DF2A /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
+		F1FF908F243DE3D700F9315F /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		F1FF9095243DEDCE00F9315F /* PopUpPauseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopUpPauseViewController.swift; path = ../PopUpPauseViewController.swift; sourceTree = "<group>"; };
+		F1FF9097243F56AF00F9315F /* FinishGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishGameViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F119DC032333FF8500A3F8E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F119067F2379D66B00CD18B9 /* Textfiles */ = {
+			isa = PBXGroup;
+			children = (
+				F1179E112368B012005953A8 /* FruitsImages.txt */,
+				F1179E0F2368AFF8005953A8 /* FruitsNames.txt */,
+				F1E01E792451C93C004E843E /* FlagsImages.txt */,
+				F1E01E7A2451C93C004E843E /* FlagsNames.txt */,
+				F1E92E262378439B001FC9A1 /* AnimalsImages.txt */,
+				F1E92E272378439B001FC9A1 /* AnimalsNames.txt */,
+				F1E92E282378439B001FC9A1 /* ThingsImages.txt */,
+				F1E92E292378439B001FC9A1 /* ThingsNames.txt */,
+			);
+			name = Textfiles;
+			sourceTree = "<group>";
+		};
+		F119DBFD2333FF8500A3F8E7 = {
+			isa = PBXGroup;
+			children = (
+				F119DC082333FF8500A3F8E7 /* Game of Minds v 0.01 */,
+				F119DC072333FF8500A3F8E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F119DC072333FF8500A3F8E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F119DC062333FF8500A3F8E7 /* Game of Minds v 0.01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F119DC082333FF8500A3F8E7 /* Game of Minds v 0.01 */ = {
+			isa = PBXGroup;
+			children = (
+				F119DC092333FF8500A3F8E7 /* AppDelegate.swift */,
+				F119067F2379D66B00CD18B9 /* Textfiles */,
+				F119DC0D2333FF8500A3F8E7 /* Main.storyboard */,
+				F1ABB730244DC9B300A81570 /* SettingsViewController.swift */,
+				F1FF9097243F56AF00F9315F /* FinishGameViewController.swift */,
+				F1FF908F243DE3D700F9315F /* HelpViewController.swift */,
+				F1FF9095243DEDCE00F9315F /* PopUpPauseViewController.swift */,
+				F1ABB732245042BE00A81570 /* UserSettings.swift */,
+				F1E0512C241E75BE00CF80EB /* PopViewController.swift */,
+				F1179E0B236378A3005953A8 /* LetsPlay.swift */,
+				F1179E0D23637A6A005953A8 /* Matches.swift */,
+				F119DC122333FF8500A3F8E7 /* LaunchScreen.storyboard */,
+				F1BB0CF32358EFF600CA8551 /* Assets.xcassets */,
+				F1BB0CF5235F6D8000CA8551 /* Montserrat-Bold.otf */,
+				F119DC152333FF8500A3F8E7 /* Info.plist */,
+				F1EEEDAC23467F8F0077DF2A /* UIView+IBInspectable.swift */,
+			);
+			path = "Game of Minds v 0.01";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F119DC052333FF8500A3F8E7 /* Game of Minds v 0.01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F119DC182333FF8500A3F8E7 /* Build configuration list for PBXNativeTarget "Game of Minds v 0.01" */;
+			buildPhases = (
+				F119DC022333FF8500A3F8E7 /* Sources */,
+				F119DC032333FF8500A3F8E7 /* Frameworks */,
+				F119DC042333FF8500A3F8E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Game of Minds v 0.01";
+			productName = "Game of Minds v 0.01";
+			productReference = F119DC062333FF8500A3F8E7 /* Game of Minds v 0.01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F119DBFE2333FF8500A3F8E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dream Team";
+				TargetAttributes = {
+					F119DC052333FF8500A3F8E7 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = A3V2L73L2N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F119DC012333FF8500A3F8E7 /* Build configuration list for PBXProject "Game of Minds v 0.01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F119DBFD2333FF8500A3F8E7;
+			productRefGroup = F119DC072333FF8500A3F8E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F119DC052333FF8500A3F8E7 /* Game of Minds v 0.01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F119DC042333FF8500A3F8E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E92E2D2378439B001FC9A1 /* ThingsNames.txt in Resources */,
+				F1179E102368AFF8005953A8 /* FruitsNames.txt in Resources */,
+				F1BB0CF6235F6D8000CA8551 /* Montserrat-Bold.otf in Resources */,
+				F119DC142333FF8500A3F8E7 /* LaunchScreen.storyboard in Resources */,
+				F119DC0F2333FF8500A3F8E7 /* Main.storyboard in Resources */,
+				F1E01E7C2451C93C004E843E /* FlagsNames.txt in Resources */,
+				F1BB0CF42358EFF600CA8551 /* Assets.xcassets in Resources */,
+				F1E92E2C2378439B001FC9A1 /* ThingsImages.txt in Resources */,
+				F1E01E7B2451C93C004E843E /* FlagsImages.txt in Resources */,
+				F1179E122368B012005953A8 /* FruitsImages.txt in Resources */,
+				F1E92E2A2378439B001FC9A1 /* AnimalsImages.txt in Resources */,
+				F1E92E2B2378439B001FC9A1 /* AnimalsNames.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F119DC022333FF8500A3F8E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1179E0E23637A6A005953A8 /* Matches.swift in Sources */,
+				F1FF9090243DE3D700F9315F /* HelpViewController.swift in Sources */,
+				F1FF9096243DEDCE00F9315F /* PopUpPauseViewController.swift in Sources */,
+				F1ABB733245042BE00A81570 /* UserSettings.swift in Sources */,
+				F1FF9098243F56AF00F9315F /* FinishGameViewController.swift in Sources */,
+				F119DC0A2333FF8500A3F8E7 /* AppDelegate.swift in Sources */,
+				F1E0512D241E75BE00CF80EB /* PopViewController.swift in Sources */,
+				F1EEEDAD23467F8F0077DF2A /* UIView+IBInspectable.swift in Sources */,
+				F1179E0C236378A3005953A8 /* LetsPlay.swift in Sources */,
+				F1ABB731244DC9B300A81570 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F119DC0D2333FF8500A3F8E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F119DC0E2333FF8500A3F8E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F119DC122333FF8500A3F8E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F119DC132333FF8500A3F8E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F119DC162333FF8500A3F8E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F119DC172333FF8500A3F8E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F119DC192333FF8500A3F8E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A3V2L73L2N;
+				INFOPLIST_FILE = "Game of Minds v 0.01/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DreamTeam.Game-of-Minds-24.04.2020";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F119DC1A2333FF8500A3F8E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A3V2L73L2N;
+				INFOPLIST_FILE = "Game of Minds v 0.01/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DreamTeam.Game-of-Minds-24.04.2020";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F119DC012333FF8500A3F8E7 /* Build configuration list for PBXProject "Game of Minds v 0.01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F119DC162333FF8500A3F8E7 /* Debug */,
+				F119DC172333FF8500A3F8E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F119DC182333FF8500A3F8E7 /* Build configuration list for PBXNativeTarget "Game of Minds v 0.01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F119DC192333FF8500A3F8E7 /* Debug */,
+				F119DC1A2333FF8500A3F8E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F119DBFE2333FF8500A3F8E7 /* Project object */;
+}
